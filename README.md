@@ -1,9 +1,9 @@
 # AI-OCR-96
-Persian Character based OCR based on Deep Learning. Implemented using [Tensorflow]().
+Persian Character based OCR based on Deep Learning. Implemented using [Tensorflow](https://github.com/tensorflow/tensorflow/).
 
 ## Execute with English MNIST
 
-  - The English verion of the code can be easily executed. The Tensorflow library will automatically download the MNIST dataset.
+  - The English verion of the code can be easily executed. The Tensorflow library will automatically download the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset.
   - The entire code is self-contained and is only dependant on a single library, namely Tensorflow. 
   - The following parameters can be configured inside the code: 
   
