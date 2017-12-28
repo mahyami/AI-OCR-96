@@ -75,7 +75,6 @@ with tf.Session() as sess:
             batch_x, batch_y = mnist.train.next_batch(batch_size)
 
             _, c = sess.run([optimizer, cross_entropy], feed_dict={x: batch_x, y: batch_y})
-            print(_, c)
 
             avg_cost += c / total_batch
 
