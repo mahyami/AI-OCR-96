@@ -24,6 +24,6 @@ The previous values are the ones proven to be the best and the most efficient ba
 
 ## Version 2: Deep Convolutional Neural Network 
 
-- Use [This line]() to choose mnist or hoda dataset. 
+- Use [This line](https://github.com/mayahmir/AI-OCR-96/blob/master/cnn.v2.py#L78) to choose mnist or hoda dataset. 
 - In order to use Hoda, use [this link](https://mega.nz/#!qU5lBI7R!ne9bWWiPPGcPL-b4G1-s4i-1ca2nh4lLceFuafJHY8E) to download them. Extract the zip archive into the root directory of this project. 4 Files with name `test_dump_img_40.npy` should be extracted. 
 - A utility file, `parser.cdb.py` is provided. You can use it to extract your own cdb files and dump them to `.npy`. 
